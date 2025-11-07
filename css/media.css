@@ -19,8 +19,6 @@
 
   /* carousel */
   .carousel {
-    margin-top: 8rem;
-
     .cyrcle {
       display: none;
     }
@@ -132,4 +130,5 @@
       width: 22rem;
     }
   }
+
 }
