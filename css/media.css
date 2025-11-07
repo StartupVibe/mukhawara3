@@ -130,5 +130,15 @@
       width: 22rem;
     }
   }
+   .true-edit-password {
+    .content {
+      width: 22rem;
+    }
+  }
+
+  .verify-box {
+    width: 22rem !important;
+  }
 
 }
+
