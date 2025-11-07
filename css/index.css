@@ -833,4 +833,70 @@ h1 {
     opacity: 100;
     background-image: none;
   }
+
 }
+
+
+
+/* start loading */
+.loading {
+  background-color: var(--third-color);
+  color: var(--second-color);
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: bold;
+  font-size: 78px;
+  position: fixed;
+  z-index: 99999999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+}
+
+.loading img {
+  width: 150px;
+}
+
+.loading:before {
+  content: "*";
+  display: inline-block;
+  animation: pulse 0.4s alternate infinite ease-in-out;
+}
+
+.loading:after {
+  content: "*";
+  display: inline-block;
+  animation: pulse 0.4s 0.3s alternate infinite ease-in-out;
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+/* end loading */
+
+/* start scroll */
+.scrolly {
+  position: fixed;
+  right: -40px;
+  bottom: 28px;
+  color: white;
+  background-color: var(--second-color);
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.scrolly.show {
+  right: 10px;
+}
+
+/* end scroll */
