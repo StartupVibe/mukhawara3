@@ -142,4 +142,10 @@
   .verify-box {
     width: 22rem !important;
   }
+
+    /* contact page */
+  .contact-section {
+    margin: 6rem 1rem 0;
+  }
+
 }
