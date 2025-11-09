@@ -1,0 +1,68 @@
+<nav id="header" class="navbar navbar-expand-lg p-3 w-100 position-fixed" data-anim="fade-down" data-anim-duration="1s"
+  data-anim-timing="linear">
+  <div class="container d-flex justify-content-between align-items-center gap-2">
+    <div class="d-flex justify-content-between align-items-center gap-3">
+      <div id="open" class="bar-icon">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </div>
+      <a class="navbar-brand" href="index.html"><img src="assets/logo2.png" alt=""></a>
+
+      <div id="collapse" class="navbar-ul position-fixed">
+        <div class="header-nav d-flex justify-content-between align-items-center">
+          <h3 class="" href="index.html">Mukhawara</h3>
+          <i id="close" class="fa-solid fa-xmark"></i>
+        </div>
+        <ul class="">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="products.html">Products</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center gap-3">
+      <div class="search position-relative">
+        <i id="Search-icon" class="fa-solid fa-magnifying-glass position-absolute"></i>
+        <input class="form-control" type="text" name="" id="" placeholder="Search products...">
+      </div>
+      <div id="cart-open" class="icon cart d-flex justify-content-center align-items-center gap-3">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="d-none d-md-block d-lg-block">cart</span>
+      </div>
+      <a href="sign-in.html" class=" icon user d-flex justify-content-center align-items-center gap-3">
+        <i class="fa-solid fa-user"></i>
+        <span class="d-none d-md-block d-lg-block">Sign in</span>
+      </a>
+    </div>
+  </div>
+</nav>
+<div id="Shopping-cart" class="Shopping-cart">
+  <div class="close-icon d-flex justify-content-between align-items-center">
+    <h3>Shopping cart</h3>
+    <i id="close-cart" class="fa-solid fa-xmark"></i>
+  </div>
+  <div id="item-card">
+    <div class="card p-3 d-flex justify-content-center align-items-center ">
+      <img src="assets/WildRoses-01.webp" alt="" />
+      <div class="text ms-3">
+        <h3>Fabric - The Starry Night</h3>
+        <div class="price">
+          <span>120$</span>
+        </div>
+        <div class="inc-add mt-2">
+          <div class="inc-dec">
+            <button data-id="" class="dec"><i class="fa-solid fa-minus"></i></button>
+            <span data-id="" class="quantity">1</span>
+            <button data-id="" class="inc"><i class="fa-solid fa-plus"></i></button>
+          </div>
+          <button class="delete btn btn-sm btn-danger mt-2">Delete product</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="price">
+    <span>Total: 0.00$</span>
+  </div>
+</div>
